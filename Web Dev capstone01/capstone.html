@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foodie - Food Delivery</title>
+  <link rel="stylesheet" href="capstone.css" />
+  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container">
+      <div class="logo">Foodie</div>
+
+      <ul class="nav-links">
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#restaurants">Restaurants</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#app">App</a></li>
+      </ul>
+
+      <div class="nav-auth">
+        <button class="btn btn-outline">Login</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+      <div class="hamburger">
+        ☰
+      </div>
+    </nav>
+  </header>
+
+  <main>
+  
+    <section class="hero container">
+      <div class="hero-content">
+        <h1>Delicious food, delivered to you</h1>
+        <p>
+          Order from your favorite restaurants and get your meal delivered fast,
+          fresh, and hot. Discover the best food in your city with Foodie!
+        </p>
+        <div class="hero-actions">
+          <button class="btn btn-primary">Order Now</button>
+          <button class="btn btn-outline">View Restaurants</button>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://media.istockphoto.com/id/1457979959/photo/snack-junk-fast-food-on-table-in-restaurant-soup-sauce-ornament-grill-hamburger-french-fries.webp?b=1&s=612x612&w=0&k=20&c=w8BdPTIA_yaRkhmQWrqJXSKTLZDXXNtgPJh5KjyahCA="
+          alt="Delicious food"
+        />
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section-header">
+          <h2>Browse by Category</h2>
+          <div class="category-filter">
+            <button class="chip chip-active">All</button>
+            <button class="chip">Daal baati</button>
+            <button class="chip">Khaman dhokla</button>
+            <button class="chip">Vada paav</button>
+            <button class="chip">Dosa</button>
+            <button class="chip">Litti chokha</button>
+            <button class="chip">Desserts</button>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search dishes or restaurants..."
+            />
+          </div>
+        </div>
+
+        <div class="grid category-grid">
+          <div class="card category-card">
+            <img
+              src="https://www.mygingergarlickitchen.com/wp-content/rich-markup-images/1x1/1x1-dal-baati-churma.jpg"
+              alt="Daal baati"
+            />
+            <h3>Daal baati</h3>
+          </div>
+
+          <div class="card category-card">
+            <img
+              src="https://www.finedininglovers.com/sites/default/files/article_content_images/dhokla%C2%A9iStock.jpg"
+              alt="khaman dhokla"
+            />
+            <h3>Khaman dhokla</h3>
+          </div>
+
+          <div class="card category-card">
+            <img
+              src="https://www.clubmahindra.com/blog/media/section_images/10indiande-151a59573b25256.webp"
+              alt="Vada Paav"
+            />
+            <h3>Vada Paav</h3>
+          </div>
+
+          <div class="card category-card">
+            <img
+              src="https://photos.smugmug.com/Asia/India/i-Pf4hCQr/0/d3d38770/X2/indian-food-dosa-X2.jpg"
+              alt="Dosa"
+            />
+            <h3>Dosa</h3>
+          </div>
+
+          <div class="card category-card">
+            <img
+              src="https://globalbihari.com/wp-content/uploads/2024/07/IMG-20240720-WA0000.jpg"
+              alt="Litti Chokha "
+            />
+            <h3>Litti Chokha</h3>
+          </div>
+
+          <div class="card category-card">
+            <img
+              src="https://i.ytimg.com/vi/OFuZjy3oxgM/maxresdefault.jpg"
+              alt="Desserts"
+            />
+            <h3>Desserts</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED RESTAURANTS -->
+    <section class="section section-alt" id="restaurants">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Restaurants</h2>
+          <p>Top rated restaurants in your area</p>
+        </div>
+
+        <div class="grid card-grid">
+          <div class="card restaurant-card">
+            <img
+              src="https://domesticfits.com/wp-content/uploads/2024/03/chinese-food-scaled.jpeg"
+              alt="Chinese Special"
+            />
+            <div class="card-body">
+              <h3>Chinese Special</h3>
+              <p>Chinese </p>
+              <div class="card-meta">
+                <span>★ 4.8</span>
+                <span>30-40 min</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card restaurant-card">
+            <img
+              src="https://i0.wp.com/pamelanandi.com/wp-content/uploads/2019/07/img_e6729.jpg?fit=984%2C1200&ssl=1"
+              alt="Marathi Special"
+            />
+            <div class="card-body">
+              <h3>Marathi Special</h3>
+              <p>Marathi </p>
+              <div class="card-meta">
+                <span>★ 4.6</span>
+                <span>25-35 min</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card restaurant-card">
+            <img
+              src="./gujrati.avif"
+              alt="Gujrati"
+            />
+            <div class="card-body">
+              <h3>Gujrati Special</h3>
+              <p>Gujrati</p>
+              <div class="card-meta">
+                <span>★ 4.7</span>
+                <span>35-45 min</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card restaurant-card">
+            <img
+              src="./Rajasthani food.jpg"
+              alt="Rajasthani food"
+            />
+            <div class="card-body">
+              <h3>Rajasthani Special</h3>
+              <p>Rajasthani</p>
+              <div class="card-meta">
+                <span>★ 4.5</span>
+                <span>30-40 min</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFERS -->
+    <section class="section" id="offers">
+      <div class="container">
+        <div class="section-header">
+          <h2>Promo Offers</h2>
+          <p>Save more on every bite</p>
+        </div>
+
+        <div class="grid offer-grid">
+          <div class="card offer-card">
+            <h3>30% OFF</h3>
+            <p>Get 30% OFF on your first order!</p>
+          </div>
+          <div class="card offer-card">
+            <h3>Free Delivery</h3>
+            <p>Free delivery on orders above Rs.249.</p>
+          </div>
+          <div class="card offer-card">
+            <h3>Offer</h3>
+            <p>Buy 1 Get 1 Free on Khaman dhokla every Friday.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section-alt" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Customers Say</h2>
+        </div>
+
+        <div class="grid card-grid">
+          <div class="card testimonial-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6qIivAq9P3NUfmSK7jgnujOpYPFN2fcELqg&s "
+              alt="Customer"
+              class="avatar"
+            />
+            <div class="rating">★★★★★</div>
+            <p class="testimonial-text">
+              "Foodie makes ordering food so easy and quick! The delivery is
+              always on time and the food is hot."
+            </p>
+            <p class="testimonial-name">Virat Kohli </p>
+          </div>
+
+          <div class="card testimonial-card">
+            <img
+              src="https://c.ndtvimg.com/2025-09/0sggq2dc_hardik-pandya_625x300_28_September_25.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
+              alt="Customer"
+              class="avatar"
+            />
+            <div class="rating">★★★★★</div>
+            <p class="testimonial-text">
+              "Great selection of restaurants and amazing offers. Highly
+              recommend to all food lovers!"
+            </p>
+            <p class="testimonial-name">Hardik Pandya</p>
+          </div>
+
+          <div class="card testimonial-card">
+            <img
+              src="https://cricketteambuzz.com/wp-content/uploads/2025/06/Rohit-Sharma.jpg"
+              alt="Customer"
+              class="avatar"
+            />
+            <div class="rating">★★★★★</div>
+            <p class="testimonial-text">
+              "The app is super user-friendly and the customer support is
+              fantastic. Love Foodie!"
+            </p>
+            <p class="testimonial-name">Rohit Sharma</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APP SECTION -->
+    <section class="section" id="app">
+      <div class="container app-section">
+        <div class="app-text">
+          <h2>Get the Foodie App</h2>
+          <p>
+            Order food on the go! Download our app for the best experience and
+            exclusive app-only deals.
+          </p>
+          <div class="store-buttons">
+            <a href="#" class="store-badge">▶Google Play</a>
+            <a href="#" class="store-badge">App Store</a>
+          </div>
+
+          <div class="app-meta">
+            <div>
+              <h4>Cities Served</h4>
+              <ul>
+                <li>Gurgaon</li>
+                <li>Jaipur</li>
+                <li>Sikar</li>
+                <li>Patna</li>
+                <li>Lucknow</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4>Contact</h4>
+              <ul>
+                <li>Email: support@foodie.com</li>
+                <li>Phone: +1 234 567 890</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="app-preview">
+          <div class="phone-frame">
+            <div class="phone-top"></div>
+            <div class="phone-screen">
+              <h3>Foodie</h3>
+              <p>Fast delivery • Fresh food</p>
+              <div class="phone-card">
+                <span>💸</span>
+                <div>
+                  <h4>Order Start</h4>
+                  <p>Starting at Rs.49</p>
+                </div>
+              </div>
+              <div class="phone-card">
+                <span>🍜</span>
+                <div>
+                  <h4>Best Food</h4>
+                  <p>Delivered under 30 mins</p>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-full">Start Ordering</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2024 Foodie. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="#">Help</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
